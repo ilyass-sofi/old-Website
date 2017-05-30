@@ -1,0 +1,156 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+/* Background video*/
+video {
+    position: fixed;
+    width: 100%;
+    z-index: -100;
+    background-size: cover;
+}
+
+/* White background box */
+div.whiteBox{
+    height: 5000px;
+    width: 55%;
+    margin: 0 auto;
+    background-image: url(../images/whiteBackground.png);
+}
+
+/* Name Title (ILYASS SOFI)*/
+h3.nameTitle{
+    text-align: center;
+    font-family:ProximaNova ;
+    font-size: 96px;
+    margin: 0;
+    padding-top: 50px;
+    font-weight:2000;
+}
+
+/* Desc Title (program..)*/
+h3.descTitle{
+     text-align: center;
+     font-family: ProximaNova;
+     font-size: 26px;
+     letter-spacing: 5px;
+     font-weight:2000;
+     margin: 0;
+     padding-top: 50px;
+}
+
+/* Intro and resume download */
+div.intro {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: AvenirLight;
+    padding-bottom: 75px;
+}
+
+/* Intro text */
+div.intro p{
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Download resume Button */
+a.dwResume{
+    cursor: pointer;
+    border: none;
+    height: auto;
+    background-color: white;
+    text-decoration : none;
+    color: black;
+    font-size: 14px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Download resume Button Hovered*/
+a.dwResume:hover{
+    background-color: black;
+    color:  #F34235;
+}
+
+/* Infographic div */
+div.infographic {
+    width: 80%;
+    height: 3000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: white;
+    color:  #F34235;
+    font-family: AvenirLight;
+    padding-bottom: 75px;
+}
+
+/* Infographic Top Div (Avatar Name) */
+div.info_top{
+  height: 200px;
+}
+
+/* Infographic Avatar */
+img.avatar{
+  margin-top: 20px;
+  margin-left: 60px;
+  width:120px;
+  float: left;
+}
+
+/* Infographic Name */
+h3.name{
+  font-size: 67px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+/* Section Lines*/
+hr.line{
+  border-color: #F34235;
+  background-color: #F34235;
+  height: 1px;
+  width: 95%;
+}
+
+/* Names of sections*/
+h4.sections{
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+/* Small Section names*/
+h5.smallSections{
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+div.Art_Design{
+height: 1000px;
+}
+
+ul.infographic_list{
+   list-style-type: none;
+}
+
+li.infographic_list{
+float: none;
+display:block;
+
+}
+img.infographicLogos{
+  display:inline-block;
+  float: left;
+}

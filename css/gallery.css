@@ -1,0 +1,228 @@
+
+body {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+
+body.games{
+  background-image: url("../images/wpGames.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+body.2dConceptArt{
+  /*background-image: url("../images/witcher3_wp.png");*/
+}
+
+body.apps{
+  /*background-image: url("../images/wpGames.png");*/
+}
+
+body.theWhisperOfTruth{
+    background-image: url("../images/whisper_wp.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+body.MoonlightSonata{
+    background-image: url("../images/moonlightSonata.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+/* White background box */
+div.blackBox{
+    width: 55%;
+    margin: 0 auto;
+    background-image: url("../images/blackBackground.png");
+}
+
+/* Title */
+h1{
+    font-family: LuloClean;
+    font-size: 4vw;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+div.galleryDiv{
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+/* Gallery div */
+div.gallery {
+    margin: 3px;
+    border: none;
+    float: left;
+
+}
+
+/* Gallery images */
+div.imgWrap img {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+.imgWrap {
+  position: relative;
+  width: 13vw;
+  height: 13vw;
+  margin: 5px;
+  float: left;
+}
+
+/* Title of game*/
+.imgDescription {
+
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  color:  #F34235;
+  visibility:hidden;
+  opacity: 0;
+  font-family: Raleway;
+  font-size: 1.5vw;
+  font-weight:1000;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle{
+  display:inline;
+  vertical-align:middle;
+  padding: 10px;
+  background-color: blue;
+  width: 80%;
+}
+
+/* Title of game when hovered*/
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+img.gameTitle{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 30vw;
+    height: 20vw;
+}
+
+div.topGame{
+  display: flex;
+  justify-content: center;
+}
+
+img.backgroundImg{
+    position: fixed;
+    z-index: -1;
+}
+
+.year{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+h6{
+    font-family: ProximaNova;
+    font-size: 2vw;
+    font-weight:5000;
+    letter-spacing: 5px;
+}
+
+.sections{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+ul.list{
+  margin-left: 10vw;
+
+}
+
+p{
+  font-family: AvenirLight;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+}
+
+#fade{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index:1001;
+    -moz-opacity: 0.7;
+    opacity:.70;
+    filter: alpha(opacity=70);
+}
+.light{
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #FFF;
+    background: #CCC;
+    z-index:1002;
+    overflow:visible;
+}
+
+.concept{
+  top: 15%;
+  left: 28%;
+}
+
+.modeling{
+  top: 10%;
+  left: 7%;
+}
+
+img.conceptImg{
+  width: 800px;
+  height: 700px;
+}
+
+img.modelingImg{
+  width: 1600px;
+  height: 800px;
+}
+
+iframe{
+  display:block;
+  margin: 0 auto;
+  width:60%;
+  height: 400px;
+}
+
+.links{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.links img{
+  padding: 10px;
+}

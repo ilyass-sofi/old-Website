@@ -3,7 +3,17 @@
     #languages { display: none; }
 }
 
+@media (max-width : 640px) {
 
+  /* Logo Home */
+  a.logoHome img{
+    display: none;
+  }
+
+  ul.topMenu {
+      padding: 0px !important;
+  }
+}
 
 body {
     margin:0;
@@ -152,6 +162,7 @@ div.footerDiv{
 p.textFooter{
     color: white;
     padding: 20px;
+    margin-top: 0px;
     font-family: AvenirLight;
 
 
